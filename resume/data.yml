@@ -1,0 +1,122 @@
+/* #*/ export const PERSON = `
+name:
+  first: Alexandru
+  middle:
+  last: Ardelean
+about: Hi, my name is Alexandru Ardelean and I am a full stack developer with more than 13 years of experience in software development field. I am living in Munich and I enjoy sports like football, snowboarding or table tennis.
+position: Software Architect/Software Developer/Lead
+
+birth:
+  year: 1984
+  location: Brasov/Romania
+
+experience:
+- company: Adidas
+  position: Dev Lead
+  timeperiod: since July 2018 
+  description: Worked on B2B department on implementing new microservices, performance optimizations and architectural designes of the new services.
+  technical: java 1.8, spring (boot, data, cloud), kafka, jpa, mysql, postgres, elasticsearch, kubernetes, jenkins, bitbucket, scrum.
+  website: https://example.com
+
+- company: Tetralog
+  position: Full Stack Developer
+  timeperiod: April 2018 - July 2018
+  description: Worked on bringing the main monolith projects on docker-swarm, optimizations in performance, implementing CI/CD pipeline, scalability. The company has business in big data field regarding shares prices prediction and analytics.
+  technical: java 1.8, spring, mongoDB, mysql, angular, gitlab, docker, docker-swarm, wildfly 10, rabbitMQ
+  website: http://tetralog.de
+
+- company: AppDirect
+  position: Senior Software Developer
+  timeperiod: February 2016 - December 2017
+  description: Responsible of developing new features and microservices as well as maintenance of the base product.
+  technical: java 1.8, kubernetes, docker, spring, hibernate, queryDSL, wicket, react, maven, gradle, tomcat, mysql, git, jenkins, kanban
+  website: http://appdirect.com
+
+- company: Commerzfinanz Bank
+  position: Consultant Software Engineer
+  timeperiod: August 2015 - February 2016
+  description: Developed internal administration tool for managing interest rates and customers as well as doing maintenance for the base project.
+  technical: java 1.7, jee 7, jpa, ejb 3.1, vaadin, maven, jboss 6.3, oracle, svn, kanban/scrum.
+  website: https://www.commerzfinanz.com/
+
+- company: Xing Events
+  position: Senior Software Engineer
+  timeperiod: November 2011 - August 2015
+  description: Worked on developing multiple features and microservices around the main project used for organizing and managing events.
+  technical: java 1.7/1.8, spring, hibernate, wicket, GWT, tomcat, maven, jenkins, scrum/kanban, mysql, rabbitMQ, mongoDB, infinispan, git
+  website: http://xing-events.com
+
+- company: IQuest
+  position: Senior Software Engineer
+  timeperiod: Devember 2008 - November 2011
+  description: Developed various new projects related to Netviewer and Citrix products.
+  technical: java, spring, hibernate. JSF, maven, tomcat, jboss, webLogic, mysql, oracvle, svn, scrum/kanban
+
+- company: Pentalog
+  position: Software Developer
+  timeperiod: January 2008 - December 2008
+  description: Developed new backend for a project to book flight tickets, as well as rewriting existing fund management application
+  technical: java, ejb 3.0, Seam, SWT, JSF, extJS, JBoss, ANT, IngressDB. 
+
+- company: Aliat.NET
+  position: Software Developer
+  timeperiod: March 2007 - January 2008
+  description: Developed new web portal for management, searching, importing real estate's properties, designed for including all real estate's firms offers and properties in one search engine.
+  technical: java, JSF, hibernate, javascript, Seam, Tomcat, ANT, Postgresql, svn.
+
+- company: BVTC
+  position: Junior Software Developer
+  timeperiod: August 2005 - July 2006
+  description: Worked on developing new project to serve as management of users for a DSL company in Italy.
+  technical: Visual Basic, C#, IIS, VSS
+
+
+
+education:
+  university: the Mathematics and Computer science Faculty, Transilvania University, Brasov, Romania
+  degrees:
+  - degree: Master Degree
+    timeperiod: August 2007 - July 2008
+    description: algorithm and software products
+
+  - degree: Bachelor Degree
+    timeperiod: August 2003 - July 2007
+    description: Computer Science
+
+# skill level goes 0 to 100
+skills:
+- name: software architecture
+  level: 85
+- name: rest-apis
+  level: 95
+- name: java technologies
+  level: 95
+- name: sql
+  level: 85
+- name: js (react, angular)
+  level: 50
+- name: docker, docker-swarm
+  level: 80
+- name: kubernetes
+  level: 83
+- name: no-sqls
+  level: 75
+- name: CI/CD(jenkins, gitlab)
+  level: 85
+knowledge: dev-ops, open apis, 
+
+hobbies:
+- name: Video Games, Snowboarding, table tennis
+  iconClass: fa fa-gamepad
+  url: https://example.com
+
+
+contact:
+  email: ardelean.i.alexandru@gmail.com
+  phone: 0049 1577 031 6559
+  street: Wolfratshauser
+  city: Munich
+  github: aardelean
+# en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el
+lang: en
+`
